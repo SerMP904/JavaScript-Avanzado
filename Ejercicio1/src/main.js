@@ -119,7 +119,7 @@ function crearSuperMascota(mutacion){
     };
 }
 
-const pegaso = crearSuperMascota("mutacion");
-console.log(pegaso.volar());
-console.log(pegaso.nadar());
-console.log(pegaso.mutacion)
+const tortugaConCohete = crearSuperMascota("mutacion");
+console.log(tortugaConCohete.volar());
+console.log(tortugaConCohete.nadar());
+console.log(tortugaConCohete.mutacion)
