@@ -206,9 +206,8 @@ try {
 
 //31
 function abrirArchivo(nombre) {
-  if (!nombre) {
-    throw new Error("no hay archivo");
-  }
+  if (!nombre) throw new Error("no hay archivo");
+  console.log("archivo")
 }
 
 try {
@@ -224,7 +223,7 @@ console.log("intervalo");
 try {
   throw new Error("algo ha salido mal");
 } catch (ohno) {
-  console.log(ohno.name + ":", ohno.message);
+  console.log(ohno.name + ": " + ohno.message);
 } finally {
   console.log("Proceso finalizado");
 }
